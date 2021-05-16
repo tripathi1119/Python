@@ -1,0 +1,98 @@
+# Conditions in python
+# question for condition
+# if it's hot
+#       its a hot day
+#       drink plenty of water
+# otherwise if it's cold
+#       It's a cold day
+#       wear warm clothes
+# otherwise
+#       its lovely day
+
+is_hot = True
+is_cold = True
+if is_hot:
+    print(" It's a hot day ")
+    print(" Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print(" Wear Warm cloths")
+else:
+    print("enjoy your day")
+exit()
+
+# how to import math and use ( go to goggle and find python 3 math module)
+import math
+print(math.ceil(2.9))
+print(math.floor(2.9))
+exit()
+
+#built in functions
+x = 2.9
+print(round(x))
+y = -2.9
+print(abs(y))
+exit()
+
+# operator precedence in mathematics
+#follow PEMDAS:
+# Parentheses,
+# Exponents,
+# Multiplication and Division (from left to right),
+# Addition and Subtraction (from left to right).
+
+x = 10 + 3 * 2  # Result will be 16 (Multiplication have high precedence)
+print(x)
+y = 10 + 3 * 2 ** 3  # ** is to power of number like 2 ** 3 = 8
+print(y)
+z = (2 + 3) * 10 - 3 # Parentheses will take the Precedence
+print(z)
+exit()
+
+# increment a number
+x = 10
+x = x + 3
+print(x)
+exit()
+
+#operators - arithmatic operations
+
+print(10 + 3)  #addition                            Answer: 13
+print(10 - 3)  #substraction                        Answer: 7
+print(10 * 3)  #multiplication                      Answer: 30
+print(10 / 3)  #division with folating points       Answer: 3.333333
+print(10 // 3) #division without floating points    Answer: 3
+print(10 % 3) #remainder of the devision            Answer: 1
+exit()
+
+#Replace and find method
+
+course = 'python for beginners'
+print(course.find('n'))
+print(course.replace('n','o'))
+exit()
+
+#concatination
+
+name_t = 'Atul Kumar Tripathi'
+print('Your Name is:' , name_t)
+print('your name lenght is : ' ,len(name_t))
+exit()
+
+#int method
+
+your_weight = input('Your Weight in Pound: ')
+weight_kg  = int(your_weight) * 0.453592
+result = 'Your Weight in KG is:'
+print(result , weight_kg)
+print(type(weight_kg))
+exit()
+
+#********************************
+
+birth_year = input('Birth Year: ')
+age = 2021 - int(birth_year)
+print(age)
+print(type(age))
+
+exit()
