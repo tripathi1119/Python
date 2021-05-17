@@ -1,0 +1,26 @@
+your_weight = input("Your Weight: ")
+calculate_in = input('(L)bs or (K)G: ')
+
+convert_L = "L"
+convert_K = "K"
+
+if convert_L == calculate_in:         # if you give small l here it will not calculate the weight , we can use .upper to chage the input to uppper
+    print('You are', int(your_weight) * 0.45,'lbs')
+elif convert_K == calculate_in:
+    print('your are', int(your_weight) / 0.45,'kilos')
+else:
+    print("your are calculating it wrong")
+
+## use of .upper function
+your_weight = input("Your Weight: ")
+calculate_in = input('(L)bs or (K)G: ')
+
+convert_L = "L"
+convert_K = "K"
+
+if convert_L == calculate_in.upper():
+    print('You are', int(your_weight) * 0.45,'lbs')
+elif convert_K == calculate_in.upper():
+    print('your are', int(your_weight) / 0.45,'kilos')
+else:
+    print("your are calculating it wrong")
