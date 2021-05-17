@@ -1,0 +1,20 @@
+i = 1
+while i <= 10:
+    print('*' * i)
+    i = i + 1   # to increment 1 , otherwise it will go on loop because i will be 1 always
+print('Done')
+
+#gussing game in python using while loop
+
+secrate_number = 7
+number_of_guess = 0
+guess_limit = 3
+while number_of_guess < guess_limit:
+    guess = int(input('Guess: '))
+    number_of_guess += 1
+    if guess == secrate_number:
+        print('You Won ')
+        break
+else:
+        print('Try again later :)')
+exit()
