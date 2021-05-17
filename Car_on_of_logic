@@ -1,0 +1,27 @@
+print("Type Help For Help Menu")
+command = ""
+started = False
+while command.lower() != "quit":
+    command = input("> ").lower()
+    if command == "start":
+        if started:
+            print("Car is already started!")
+        else:
+            started = True
+            print("Car started .... ")
+    elif command == "stop":
+        if not started:
+            print("Car is already started!")
+        else:
+            started = False
+            print("Car stopped ....")
+    elif command == "quit ":
+        print("thanks")
+        break
+    elif command == "help":
+        print("""
+        Start - To start the Car
+        Stop -  To stop the Car
+        Quit - To exit the menu """)
+    else:
+        print(" i don't understand this command ")
