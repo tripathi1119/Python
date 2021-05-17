@@ -1,0 +1,29 @@
+#if temperature is greator than 30
+#        it's a hot day
+#otherwise if it's less than 10
+#        it's a cold day
+#otherwise
+#        it's neither cold nor hot
+# = is used to assign value
+# == is used to compare value
+# != is not equal
+# > greater than
+# < less than
+
+
+temperature = 30
+
+if temperature > 30:
+    print("its a hot day")
+else:
+    print("its not a hot day")
+
+name_1 = 'Atul Kumar Tripathi hai ga ji aur dasso ki haal hai apke'
+
+if len(name_1) < 3:
+    print('Name must be at least 3 characters')
+elif len(name_1) > 50:
+    print('Name can be maximum of 50 characters')
+else:
+    print("Name Looks Good")
+exit()
