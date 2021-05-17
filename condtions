@@ -1,0 +1,22 @@
+# Conditions in python
+# question for condition
+# if it's hot
+#       its a hot day
+#       drink plenty of water
+# otherwise if it's cold
+#       It's a cold day
+#       wear warm clothes
+# otherwise
+#       its lovely day
+
+is_hot = True
+is_cold = True
+if is_hot:
+    print(" It's a hot day ")
+    print(" Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print(" Wear Warm cloths")
+else:
+    print("enjoy your day")
+exit()
